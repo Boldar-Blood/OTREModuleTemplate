@@ -1,68 +1,370 @@
 ---
-output-file: index.html
+title: "Intro to the Digital SAT"
+subtitle: "Overview of Test Structure and General Test-Taking Tips"
+author: "Joshua West"
+date: today
+title-slide-attributes:
+  data-background-image: assets/OTRELogoTransWAdd.png
+  data-background-size: contain        # or: contain
+  data-background-position: center   # e.g., "top left", "50% 30%"
+  data-background-opacity: "0.25"    # 0 (transparent) .. 1 (opaque)
 format:
   revealjs:
-    theme: simple
+    theme: serif
+    slide-number: true
+    incremental: true
+    transition: slide
+    output-file: index.html
   pptx:
-    reference-doc: OTRETheme.pptx
+    reference-doc: assets\OTRETheme.pptx
   beamer:
     theme: metropolis
-params:
-  course_name: "Digital SAT"
-  module_title: "Part 1 – Structure & Scoring"
+    slide-level: 2
+    fontsize: 18pt
+    toc: true
 ---
 
-![](assets/OTRELogoTransWAdd.png){width="60%"}
+## Time & Flow
 
-# Intro to the SAT
+**Time:** ~1 hour
 
-## Agenda
+**Flow:**
 
-- Goals & checkpoints
-- Key definitions and notation
-- Worked examples
+1) Introduction, Test Structure, and Scoring
+2) Detailed Breakdown of Reading & Writing and Math
+3) Testing Edge Strategy with FUEL
+4) Conclusion and Wrap-Up
 
-## Core Definitions
+::: notes
+Total target: ~60 minutes
+- Part 1: 15 minutes
+- Part 2: 25 minutes
+- Part 3: 15 minutes
+- Part 4: 5 minutes
+:::
 
-Inline math $f(x)$ and display:
+---
 
-$$
-\mathrm{Var}(X)=\mathbb{E}\!\left[(X-\mu)^2\right]
-$$
+## Part 1: Introduction, Test Structure, and Scoring
 
-## Example Problem
+**Time:** 15 minutes
 
-```{=latex}
-\begin{question}
-The graph of the given equation is a circle in the \(xy\)-plane. The point \( (a, b) \) lies on the circle. Which of the following is a possible value for \( b \)?
+::: notes
+Part 1 pacing: ~15 minutes total.
+:::
 
-\[
-(x - 3)^2 + (y + 7)^2 = 81
-\]
+---
 
+![](assets/SATCollege.png)
 
-    \choice{\( -9 \)}
-    \choice{\( -3 \)}
-    \correctchoice{\( 12 \)} % Correct Answer
-    \choice{\( 17 \)}
+::: notes
+Set the tone and explain outcomes in < 60 seconds.
+:::
 
-\end{question}
-```
+---
 
-The graph of the given equation is a circle in the $xy$-plane. The point $(a, b)$ lies on the circle. Which of the following is a possible value for $b$?
+## Goals of the SAT
 
-$$
-(x - 3)^2 + (y + 7)^2 = 81
-$$
+- The SAT measures **college readiness**.
+- Used by colleges for **admissions**, **scholarships**, and **course placement**.
 
-A: -9
+---
 
-B: -3
+## Raw Scores & Timing
 
-C: 12
+- **No penalty** for wrong answers.
+- **R&W:** **22** required for harder 2nd R&W section
+- **Math:** **17** required for harder 2nd Math section
+- **Timing:** **64 min** for Reading & Writing, **70 min** for Math.
+- **Section Breakdown:**
 
-D: 17
+| Section            | Modules | Questions | Time |
+|--------------------|:------:|:---------:|:----:|
+| Reading & Writing  |   2    |    54     | 64m  |
+| Math               |   2    |    44     | 70m  |
+| Total               |   4    |    98     | 134m  |
 
-## Next Module
+---
 
-- Swap `params` above to reuse this deck for the next topic.
+## Adaptive Structure
+
+- **Module 1:** Same baseline difficulty for everyone.  
+- **Module 2:** Adapts based on Module 1 performance.  
+- **Goal:** Challenge appropriately and measure skills accurately.
+
+---
+
+## Scoring: IRT & Equating
+
+- **Item Response Theory (IRT):** Accounts for **question difficulty** when scoring.
+- **Equating:** Ensures fairness across test forms.
+- **Conversion:** **Raw score → Scaled score → Final SAT score**.
+
+---
+
+## Preparation Tips
+
+- Simulate **real exam conditions** with full-length tests.
+- Use **time-blocking** (e.g., Pomodoros) for focused practice.
+- Keep a **Reflection Log** to track mistakes, patterns, and fixes.
+
+**Reflection Log**
+
+| Date | Section | Q# | Question Type | Why it happened | Fix / Strategy |
+|-----:|:-------:|:--:|:----------:|:---------------:|:--------------:|
+| 10/15 | R&W | 12 | Inference | Skimmed evidence | Slow down, underline clues |
+
+---
+
+## Quiz 1 — Check Understanding
+
+1) What is the SAT designed to measure?  
+2) How many questions are in the **Reading & Writing** section?  
+3) What happens in the second module of the adaptive test?  
+4) How does **IRT** affect your score?  
+5) Why is **equating** used in SAT scoring?
+
+::: notes
+Answers:
+1) College readiness / skills for higher ed  
+2) 54  
+3) Difficulty adapts based on Module 1 performance  
+4) Adjusts scoring based on question difficulty  
+5) Ensures fairness across versions
+:::
+
+---
+
+## Part 2: Detailed Breakdown of Reading & Writing and Math
+
+**Time:** 25 minutes
+
+::: notes
+Part 2 pacing: ~25 minutes total.
+:::
+
+---
+
+## General Strategies (All Sections)
+
+- **Pace Yourself:** Don’t over-invest in one question.  
+- **POE (Process of Elimination):** Remove clearly wrong choices.  
+- **Answer Every Question:** No penalty for guessing.  
+- **Revisit Flagged Items:** If time remains, return and verify.
+
+---
+
+## Core Strategies: Reading & Writing
+
+- **Read Actively:** Annotate, underline key terms, margin notes.  
+- **Evidence-Based Thinking:** Support answers with text evidence.  
+- **Author’s Purpose & Tone:** Guide main idea and inference Qs.  
+- **Words in Context:** Infer meaning from usage.  
+- **Avoid Assumptions:** Stick to the text.
+
+---
+
+## R&W: Information & Ideas
+
+- **Central Ideas:** Identify main ideas + supports.  
+- **Command of Evidence:** Locate supporting lines.  
+- **Inferences:** Draw logical conclusions.
+
+---
+
+## R&W: Craft & Structure
+
+- **Words in Context:** Function/meaning in passage.  
+- **Text Structure:** Cause–effect, compare–contrast, etc.  
+- **Cross-Text Comparisons:** Relate ideas across passages.
+
+---
+
+## R&W: Expression of Ideas
+
+- **Rhetorical Synthesis:** Improve clarity, tone, logic.  
+- **Transitions:** Smooth connections between ideas.
+
+---
+
+## R&W: Standard English Conventions
+
+- **Punctuation:** Sentence boundaries, clarity.  
+- **Grammar:** Structure, agreement, tense, parallelism.
+
+---
+
+## Core Strategies: Math
+
+- **Write Out Your Work:** Reduce careless errors.  
+- **Use Estimation:** Rule out implausible answers.  
+- **Check Your Work:** Ensure it fits the context.
+- **DESMOS it!** Take advantage of DESMOS features to save time and increase accuracy.
+
+---
+
+## Math: Algebra
+
+- **Linear Equations (1 var)**  
+- **Systems of Equations**  
+- **Inequalities** (solve/graph)
+
+---
+
+## Math: Advanced Math
+
+- **Nonlinear Functions:** Quadratic, exponential, polynomial.  
+- **Equivalent Expressions:** Simplify/manipulate forms.
+
+---
+
+## Math: Problem Solving & Data Analysis
+
+- **Ratios & Proportions** (rates, unit conversions)  
+- **Probability & Statistics** (interpret & compute)  
+- **One-Variable Data:** mean/median/mode  
+- **Two-Variable Data:** scatterplots, regression lines
+
+---
+
+## Math: Geometry & Trigonometry
+
+- **Area & Volume** (2D/3D)  
+- **Right Triangles:** Pythagorean, trig ratios  
+- **Circles:** angles, arcs, sectors
+
+---
+
+## Quiz 2 — R&W and Math Sections
+
+1) In the **Reading & Writing** section, what does “**Command of Evidence**” require you to do?
+
+2) For **Words in Context** questions, what’s the most reliable first step?
+
+3) In **Expression of Ideas** items, what’s the main purpose of adding or refining **transitions**?
+
+4) In the **Math** section, what is an efficient strategy for solving a **system of linear equations**?
+
+5) In **Problem Solving & Data Analysis**, what is the correct formula for **percent change**?
+
+::: notes
+Answers:
+1) Identify the specific lines/details in the passage that directly support your answer.
+2) Read the full sentence and nearby lines to determine the word’s meaning from context—then choose the meaning that fits the passage’s tone and purpose.
+3) To make relationships between ideas explicit—e.g., cause, contrast, sequence—so the paragraph flows logically.
+4) Use substitution or elimination to isolate one variable, solve, then back-substitute and check the solution in both equations.
+5) (new − old) ÷ old × 100%
+:::
+
+---
+
+## Part 3: Testing Edge Strategy with FUEL
+
+**Time:** 15 minutes
+
+::: notes
+Part 3 pacing: ~15 minutes total.
+:::
+
+---
+
+## FUEL: Focus (Manage Distractions)
+
+- **Internal:** anxiety, overthinking → breathing, brief reset  
+- **External:** noise, interruptions → environment setup  
+- **Mindfulness:** quick grounding techniques
+
+![](assets/EFStrats.png){fig-align="center"}
+
+---
+
+## FUEL: Understand (Growth Mindset)
+
+- Treat mistakes as **data**.  
+- Reflect → adjust plan → improve.
+
+![](assets/GrowthMindset.png){fig-align="center"}
+
+---
+
+## FUEL: Endure (Sleep & Nutrition)
+
+- **Sleep:** Aim **8–10 hrs** (90-min cycles; ~5 cycles ideal).  
+- **Nutrition:** Balanced meals leading up to test day.  
+- **Hydration:** Consistent, not just test morning.
+
+![](assets/PrepChecklist.png){fig-align="center"}
+
+---
+
+## FUEL: Lead with Motivation (Metacognition)
+
+- **Connect to Goals:** admissions, scholarships, options.  
+- **Metacognition:** plan → monitor → evaluate → revise.  
+- **Reflection Log:** keep it current (weekly review).
+
+![](assets/ReflectionLog.png)
+
+---
+
+## FUEL Check
+
+1) How can you manage **external** distractions?  
+2) Why is a **growth mindset** useful?  
+3) Recommended **sleep** range for test performance?  
+4) Why reflect on practice tests?  
+5) Role of **positive self-talk**?
+
+::: notes
+Suggested answers:
+1) Quiet space, minimize interruptions/noise  
+2) Helps learn from mistakes and improve  
+3) 8–10 hours (90-min cycles)  
+4) Identify patterns → target improvements  
+5) Focus + reduced anxiety
+:::
+
+---
+
+## Part 4: Conclusion and Wrap-Up
+
+**Time:** 5 minutes
+
+::: notes
+Part 4 pacing: ~5 minutes total.
+:::
+
+---
+
+## Final Test-Day Reminders
+
+- Bring **admission ticket**, **valid ID**, **approved calculator**, and **pencils**.  
+- Arrive early, stay calm, trust your preparation.  
+- Quick review the day before — **don’t cram**.
+
+---
+
+## Recap of Key Strategies
+
+- **Test Structure:** R&W + Math breakdown; adaptive modules.  
+- **FUEL:** Focus, Understand, Endure, Lead.  
+- **Preparation:** Full-length practice, reflection logs, target weaknesses.
+
+---
+
+## Quiz 4 — Final Quiz (5 Qs)
+
+1) What items must you bring to the SAT?  
+2) How does the **adaptive** system work?  
+3) What does **FUEL** stand for?  
+4) How to use **reflection logs** effectively?  
+5) Why simulate exam-like conditions?
+
+::: notes
+Answers:
+1) Admission ticket, valid ID, approved calculator, pencils  
+2) Module 2 adapts to Module 1 performance  
+3) Focus, Understand, Endure, Lead  
+4) Analyze mistakes, track patterns, plan improvements  
+5) Build stamina and reduce surprises on test day
+:::
