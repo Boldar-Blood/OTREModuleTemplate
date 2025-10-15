@@ -1,4 +1,5 @@
 ---
+output-file: index.html
 format:
   revealjs:
     theme: simple
