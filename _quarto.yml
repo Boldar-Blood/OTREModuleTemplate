@@ -1,0 +1,18 @@
+project:
+  title: "OTRE Module Template"
+
+format:
+  revealjs:
+    theme: simple
+  pptx:
+    reference-doc: OTRETheme.pptx
+  beamer:
+    theme: metropolis
+    include-in-header: preamble.tex
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    code-fold: true
+    code-summary: "Click to show/hide code"

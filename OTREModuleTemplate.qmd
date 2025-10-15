@@ -1,0 +1,67 @@
+---
+format:
+  revealjs:
+    theme: simple
+  pptx:
+    reference-doc: OTRETheme.pptx
+  beamer:
+    theme: metropolis
+params:
+  course_name: "Digital SAT"
+  module_title: "Part 1 – Structure & Scoring"
+---
+
+![](assets/OTRELogoTransWAdd.png){width="60%"}
+
+# Intro to the SAT
+
+## Agenda
+
+- Goals & checkpoints
+- Key definitions and notation
+- Worked examples
+
+## Core Definitions
+
+Inline math $f(x)$ and display:
+
+$$
+\mathrm{Var}(X)=\mathbb{E}\!\left[(X-\mu)^2\right]
+$$
+
+## Example Problem
+
+```{=latex}
+\begin{question}
+The graph of the given equation is a circle in the \(xy\)-plane. The point \( (a, b) \) lies on the circle. Which of the following is a possible value for \( b \)?
+
+\[
+(x - 3)^2 + (y + 7)^2 = 81
+\]
+
+
+    \choice{\( -9 \)}
+    \choice{\( -3 \)}
+    \correctchoice{\( 12 \)} % Correct Answer
+    \choice{\( 17 \)}
+
+\end{question}
+```
+
+The graph of the given equation is a circle in the $xy$-plane. The point $(a, b)$ lies on the circle. Which of the following is a possible value for $b$?
+
+$$
+(x - 3)^2 + (y + 7)^2 = 81
+$$
+
+A: -9
+
+B: -3
+
+C: 12
+
+D: 17
+
+## Next Module
+
+- Swap `params` above to reuse this deck for the next topic.

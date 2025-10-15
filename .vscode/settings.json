@@ -1,0 +1,34 @@
+{
+  // --- Quarto ---
+  // Render on save (you can toggle per-project)
+  "quarto.render.renderOnSave": true, 
+
+  // --- Markdown authoring ---
+  "editor.wordWrap": "on",
+  "[markdown]": {
+    "editor.quickSuggestions": {"other": true, "comments": false, "strings": false}
+  },
+
+  // markdownlint is useful but chatty; run only on save
+  "markdownlint.run": "onSave",
+
+  // --- Paste Image: save all pasted images into /assets and insert relative links ---
+  "pasteImage.path": "${projectRoot}/assets",
+  "pasteImage.basePath": "${projectRoot}",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.prefix": "",
+  "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](assets/${imageFileName})",
+
+  // --- YAML quality-of-life ---
+  "yaml.format.enable": true,
+  "yaml.validate": true,
+
+  // --- Spell checking across Markdown/Quarto ---
+  "cSpell.enabledFileTypes": {
+    "markdown": true,
+    "yaml": true,
+    "quarto": true,
+    "rmarkdown": true,
+    "latex": true
+  }
+}
